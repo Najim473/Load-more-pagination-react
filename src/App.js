@@ -25,11 +25,7 @@ const App = () => {
             <p>{page.body}</p>
           </div>
         ))}
-        {item.id === 100 ? (
-          <button>Nothing to load</button>
-        ) : (
-          <button onClick={showMoreItems}>Load more</button>
-        )}
+        <button onClick={showMoreItems}>Load more</button>
       </div>
     </div>
   );
